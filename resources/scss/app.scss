@@ -1,5 +1,47 @@
 @import '~bootstrap/scss/bootstrap';
 
-body{
-    background-color: bisque;
+body {
+    font-family: 'Roboto Condensed', sans-serif;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/* HEADER */
+
+header {
+    height: 110px;
+    width: 100%;
+    background-color: white;
+
+    .h-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+
+      img {
+        vertical-align: middle;
+      }
+    }
+
+    ul {
+      cursor: pointer;
+      height: 100%;
+      list-style: none;
+      display: flex;
+
+      a {
+        padding: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        font-size: 0.92rem;
+      }
+    }
+  }
+
+/* /HEADER */
