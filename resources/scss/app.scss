@@ -45,3 +45,44 @@ header {
   }
 
 /* /HEADER */
+/* FOOTER */
+
+footer .container {
+    background-image: url("../assets/img/dc-logo-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    overflow-y: hidden;
+  }
+  footer {
+    background-image: url("../img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      .f-top-left {
+        display: flex;
+        ul {
+          padding: 20px;
+          list-style: none;
+          h2 {
+            text-transform: uppercase;
+            margin: 15px 0px;
+            color: white;
+          }
+          a {
+            font-size: 0.9rem;
+            line-height: 25px;
+            color: white;
+            text-decoration: none;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+/* /FOOTER */
