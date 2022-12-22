@@ -2,7 +2,7 @@
     <div class="container">
         <div class="h-wrapper">
             <div class="logo">
-                <img src="{{ Vite::asset('resources/img/dc-logo') }}" alt="DC_LOGO" />
+                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC_LOGO" />
             </div>
             <div class="nav-menu">
                 <ul>
