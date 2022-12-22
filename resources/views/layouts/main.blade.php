@@ -14,6 +14,8 @@
 
 <body>
     @include('partials.header')
+
+    @include('partials.footer')
     @yield('content')
 </body>
 
