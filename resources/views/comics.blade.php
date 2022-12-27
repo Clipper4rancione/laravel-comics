@@ -19,17 +19,6 @@
         <div class="container">
             <div class="card-wrapper">
                 @include('partials.card')
-                @include('partials.card')
-                @include('partials.card')
-                @include('partials.card')
-                @include('partials.card')
-                @include('partials.card')
-                @include('partials.card')
-                @include('partials.card')
-                @include('partials.card')
-                @include('partials.card')
-                @include('partials.card')
-                @include('partials.card')
             </div>
             <div class="cta">
                 <div class="button-show-more">show more</div>
