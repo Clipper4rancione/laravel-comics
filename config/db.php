@@ -3,6 +3,7 @@
 return [
     "comics" => [
 
+
         [
             "id" => 1234,
             "title" => "Action Comics #1000: The Deluxe Edition",
